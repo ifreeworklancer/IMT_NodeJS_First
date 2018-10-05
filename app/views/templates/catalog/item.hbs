@@ -1,0 +1,12 @@
+<div class="product-card">
+    <h1 class="product-card-body-title">{{catalog.title}}</h1>
+    <p>{{catalog.body}}</p>
+    <p class="product-card-body__price">{{catalog.price}}</p>
+
+    <button class="btn btn-dark basket-btn" data-id="{{catalog.id}}">Add</button>
+    <a href="../../basket" class="btn btn-light">Перейти в корзину</a>
+</div>
+
+<button id="checkout" class="btn btn-light d-none">Оформить заказ</button>
+<button id="clear_cart" class="d-none">Очистить корзину</button>
+<div id="cart_content" class="d-none"></div>
